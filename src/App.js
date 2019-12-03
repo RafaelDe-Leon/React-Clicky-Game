@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import FriendCard from './components/PokemonCard';
+import PokemonCard from './components/PokemonCard';
 import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 import pokemon from './pokemon.json';
+import Navbar from './components/NavBar';
 
 class App extends Component {
   // Setting this.state.pokemon to the pokemon json array
@@ -17,13 +18,15 @@ class App extends Component {
     this.setState({ pokemon });
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.pokemon and render a PokemonCard component for each pokemon object
   render() {
     return (
       <Wrapper>
-        <Title>Pokemon List</Title>
+        <Title>
+          Click on the Pokemon, make sure you don't click the same pokemon twice
+        </Title>
         {this.state.pokemon.map(pokemon => (
-          <FriendCard
+          <PokemonCard
             removeFriend={this.removeFriend}
             id={pokemon.id}
             key={pokemon.id}
