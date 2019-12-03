@@ -20,6 +20,7 @@ class App extends Component {
   handlePicked = id => {
     const shuffledArray = this.shuffleArray(pokemon);
     this.setState({ pokemon: shuffledArray });
+
     if (this.state.clickedPokemon.includes(id)) {
       this.setState({
         score: 0,
@@ -36,7 +37,7 @@ class App extends Component {
       });
     }
 
-    if (this.state.score > this.state.topScore) {
+    if (this.state.score >= this.state.topScore) {
       this.setState({ topScore: this.state.score });
     }
   };
