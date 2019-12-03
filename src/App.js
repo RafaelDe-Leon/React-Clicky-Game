@@ -4,6 +4,7 @@ import Wrapper from './components/Wrapper/wrapper';
 import Title from './components/Title';
 import pokemon from './pokemon.json';
 import Navbar from './components/NavBar';
+import style from './app.css';
 
 class App extends Component {
   // Setting this.state.pokemon to the pokemon json array
@@ -62,7 +63,7 @@ class App extends Component {
 
         <p className='score'>
           <strong>
-            score:{this.state.score} | TopScore: {this.state.topScore}
+            score: {this.state.score} | TopScore: {this.state.topScore}
           </strong>
         </p>
         <p className='message'>

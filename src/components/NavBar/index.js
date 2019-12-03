@@ -4,7 +4,7 @@ import './style.css';
 function Navbar(props) {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-      <a className='navbar-brand' href='#'>
+      <a className='navbar-brand' href='index.html'>
         Pokemon Clicky Game
       </a>
 
