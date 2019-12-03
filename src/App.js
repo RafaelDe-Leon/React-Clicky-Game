@@ -11,17 +11,11 @@ class App extends Component {
     pokemon
   };
 
-  removeFriend = id => {
-    // Filter this.state.pokemon for pokemon with an id not equal to the id being removed
-    const pokemon = this.state.pokemon.filter(pokemon => pokemon.id !== id);
-    // Set this.state.pokemon equal to the new friends array
-    this.setState({ pokemon });
-  };
-
   // Map over this.state.pokemon and render a PokemonCard component for each pokemon object
   render() {
     return (
       <Wrapper>
+        <Navbar />
         <Title>
           Click on the Pokemon, make sure you don't click the same pokemon twice
         </Title>
