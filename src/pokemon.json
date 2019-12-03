@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Eevee",
+    "image": "https://img.pokemondb.net/artwork/large/eevee.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mewtwo",
+    "image": "https://img.pokemondb.net/artwork/large/mewtwo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dragonite",
+    "image": "https://img.pokemondb.net/artwork/large/dragonite.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Arcanine",
+    "image": "https://img.pokemondb.net/artwork/large/arcanine.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gengar",
+    "image": "https://img.pokemondb.net/artwork/large/gengar.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mew",
+    "image": "https://img.pokemondb.net/artwork/large/mew.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Typhlosion",
+    "image": "https://img.pokemondb.net/artwork/large/typhlosion.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ho-Oh",
+    "image": "https://img.pokemondb.net/artwork/large/ho-oh.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Tyranitar",
+    "image": "https://img.pokemondb.net/artwork/large/tyranitar.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Lugia",
+    "image": "https://img.pokemondb.net/artwork/large/lugia.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Celebi",
+    "image": "https://img.pokemondb.net/artwork/large/celebi.jpg"
+  }
+]
